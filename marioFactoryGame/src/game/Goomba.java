@@ -1,8 +1,9 @@
 package game;
 
 import java.net.URL;
-
 import javax.swing.*;
+
+//Producto Concreto
 
 public class Goomba implements Enemy {
     @Override
@@ -14,7 +15,7 @@ public class Goomba implements Enemy {
             label.setIcon(icon);
             label.setText("Ataque de Goomba");
         } else {
-            System.out.println("Imagen no encontrada Koopa.");
+            System.out.println("Imagen no encontrada Goomba.");
         }
         
     }
